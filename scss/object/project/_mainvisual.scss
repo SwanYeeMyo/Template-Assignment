@@ -1,0 +1,26 @@
+.mainvisual{
+    background-image: url('../img/BG.png');
+    height: 1000px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     &__block{
+        max-width: 580px;
+        margin: 0 auto;
+        h2{
+            font-size: 81px;
+            font-family: 'Archivo Black', sans-serif;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        p {
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+          }
+     }
+}
